@@ -1,0 +1,15 @@
+/*   
+Theme Name: Waipoua-TPLE
+Theme URI: http://www.tple.de
+Description: Child theme of Waipoua by elmastudio for tple.de
+Author: FlowFX Media
+Author URI: http://flowfx-media.de/
+Template: waipoua
+Version: 1.0
+Tags: Waipoua Child Theme
+*/
+
+/* Use @import, to borrow the style sheet from the Waipoua parent theme */
+@import url('../waipoua/style.css');
+
+/* Now you can start adding your own styles here. Use !important to overwrite styles if neccessary. */
