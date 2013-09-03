@@ -14,7 +14,7 @@ Tags: Waipoua Child Theme
 
 /* Now you can start adding your own styles here. Use !important to overwrite styles if neccessary. */
 
-/* Remove wp-post-image from event entries
+/* Remove wp-post-image from event entries */
 .entry-content a img.wp-post-image {
     display: none;
 }
