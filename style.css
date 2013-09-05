@@ -26,3 +26,7 @@ Tags: Waipoua Child Theme
 .single-ai1ec_event footer.entry-meta {
     display: none;
 }
+/* Hide page header on home page */
+.home header.entry-header {
+    display: none;
+}
