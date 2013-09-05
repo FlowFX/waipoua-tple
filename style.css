@@ -18,3 +18,8 @@ Tags: Waipoua Child Theme
 .entry-content a img.wp-post-image {
     display: none;
 }
+
+/* Remove sidebar from event entries */
+div#sidebar {
+    display: none;
+}
