@@ -30,3 +30,7 @@ Tags: Waipoua Child Theme
 .home header.entry-header {
     display: none;
 }
+/* Move header image to top */
+#branding {
+    padding-top: 0;
+}
