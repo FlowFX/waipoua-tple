@@ -18,6 +18,10 @@ Tags: Waipoua Child Theme
 .single-ai1ec_event .entry-content img.wp-post-image {
     display: none;
 }
+/* Hide sidebar from event page */
+.single-ai1ec_event div#sidebar {
+    display: none;
+}
 /* Hide meta data from event page */
 .single-ai1ec_event footer.entry-meta {
     display: none;
@@ -30,4 +34,3 @@ Tags: Waipoua Child Theme
 #branding {
     padding-top: 0;
 }
-=======
