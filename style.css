@@ -27,7 +27,9 @@ Tags: Waipoua Child Theme
     display: none;
 }
 /* Hide page header on home page */
-.home header.entry-header {
+.home .category-intro aside.entry-details,
+.home .category-intro header.entry-header,
+.home .category-intro footer.entry-meta {
     display: none;
 }
 /* Move header image to top */
