@@ -34,3 +34,7 @@ Tags: Waipoua Child Theme
 #branding {
     padding-top: 0;
 }
+/* Disable mouse-over site image opacity */
+#site-title img:hover {
+    opacity: 1;
+}
