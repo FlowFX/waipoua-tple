@@ -40,3 +40,7 @@ Tags: Waipoua Child Theme
 #site-title img:hover {
     opacity: 1;
 }
+/* Fix gallery-over-entry-image problem */
+div.ngg-pro-masonry {
+    float: left;
+}
