@@ -14,7 +14,33 @@ Tags: Waipoua Child Theme
 
 /* Now you can start adding your own styles here. Use !important to overwrite styles if neccessary. */
 
-/* Remove wp-post-image from event entries */
-.entry-content a img.wp-post-image {
+/* Hide wp-post-image from event page */
+.single-ai1ec_event .entry-content img.wp-post-image {
     display: none;
+}
+/* Hide sidebar from event page */
+.single-ai1ec_event div#sidebar {
+    display: none;
+}
+/* Hide meta data from event page */
+.single-ai1ec_event footer.entry-meta {
+    display: none;
+}
+/* Hide page header on home page */
+.home .category-intro aside.entry-details,
+.home .category-intro header.entry-header,
+.home .category-intro footer.entry-meta {
+    display: none;
+}
+/* Move header image to top */
+#branding {
+    padding-top: 0;
+}
+/* Disable mouse-over site image opacity */
+#site-title img:hover {
+    opacity: 1;
+}
+/* Fix gallery-over-entry-image problem */
+div.ngg-pro-masonry {
+    float: left;
 }
