@@ -57,3 +57,9 @@ div.ngg-pro-masonry {
     margin-bottom: 5px;
     padding: 24px 20px;
 }
+/* Beautify page titles */
+h1.entry-title {
+    color: #fff;
+    background: #21727d;
+    padding-left: 10px;
+}
