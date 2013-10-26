@@ -63,3 +63,8 @@ h1.entry-title {
     background: #21727d;
     padding-left: 10px;
 }
+/* adjust header and nav fonts to h1 */
+#site-nav li,
+#sidebar .widget .widget-title {
+    font-family: 'Oswald', sans-serif !important;
+}
