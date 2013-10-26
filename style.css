@@ -50,3 +50,10 @@ div.ngg-pro-masonry {
     margin-bottom: 5px;
     border-bottom: 0;
 }
+/* Beautify sidebar */
+#sidebar .widget {
+    border: solid 5px #21727d;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 24px 20px;
+}
