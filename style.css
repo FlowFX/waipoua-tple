@@ -62,10 +62,14 @@ div.ngg-pro-masonry {
     background-color: #eaeaea;
 }
 /* Beautify page titles */
-h1.entry-title {
+h1.entry-title,
+h2.entry-title {
     color: #fff;
     background: #21727d;
     padding-left: 10px;
+}
+h2.entry-title a {
+    color: #fff !important;
 }
 /* adjust header and nav fonts to h1 */
 #site-nav li,
